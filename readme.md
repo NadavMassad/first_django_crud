@@ -38,8 +38,11 @@ Don't forget use this import statement:
 `from . import  views`.
 
 Now, we need to create our tables that we've defined. To do so we need to run two commands in the cmd:
+
 `python manage.py makemigrations`
+
 `py manage.py migrate`.
+
 Now we can see that our table are in the sqlite file.
 
 The last thing we need to do, is to create the CRUD in the `views.py` file.
