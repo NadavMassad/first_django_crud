@@ -48,7 +48,9 @@ Now we can see that our table are in the sqlite file.
 The last thing we need to do, is to create the CRUD in the `views.py` file.
 
 First, we import this:
+
 `from rest_framework.decorators import api_view`
+
 `from .models import Student, Phones`.
 
 Now we create an index page:
