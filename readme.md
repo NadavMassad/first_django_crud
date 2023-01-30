@@ -13,10 +13,10 @@ To activate write this:
 `env\Scripts\activate`
 
 After we activate the env, we need to pip install few things:
-`pip install django`
-`django-admin startproject myproj . ` - Pay attention to the `.`, it is necessary.
-`django-admin startapp base` - Create application
-`py manage.py runserver` - Run server
+  `pip install django` 
+  `django-admin startproject myproj . ` - Pay attention to the `.`, it is necessary.
+  `django-admin startapp base` - Create application
+  `py manage.py runserver` - Run server
 
 After we create the app, we need to connect it to the project:
 Inside `myproj` folder, go to `settings.py`, and go to the 
