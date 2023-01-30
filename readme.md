@@ -59,4 +59,5 @@ Just a simple page for now, to have a landing page(We can use the default page w
 Then, we create the end-points for our urls,
 nut we need to determine first which methods are allowd.
 for example:
+
 `@api_view(['GET', 'POST'])`
