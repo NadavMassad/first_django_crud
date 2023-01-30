@@ -13,6 +13,7 @@ To activate write this:
 `env\Scripts\activate`
 
 After we activate the env, we need to pip install few things:
+
   `pip install django` 
   
   `django-admin startproject myproj . ` - Pay attention to the `.`, it is necessary.
