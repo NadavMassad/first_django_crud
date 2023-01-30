@@ -4,12 +4,15 @@ The first thing we do is create a virtual environment.
 If we don't have it install on our pc, we need to install it.
 Make sure you are in the prject directory in the terminal.
 Use the terminal and write this command:
+
 `python -m pip install --user virtualenv `
 
 To create it write in the terminal this:
+
 `python -m virtualenv env`
 
 To activate write this:
+
 `env\Scripts\activate`
 
 After we activate the env, we need to pip install few things:
